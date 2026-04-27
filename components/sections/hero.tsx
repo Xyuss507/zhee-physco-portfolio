@@ -178,7 +178,7 @@ export function Hero({ loaded }: { loaded: boolean }) {
         >
           <svg viewBox="0 0 100 100" className="w-full h-full">
             <path id="circlePath" d="M 50, 50 m -38, 0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0" fill="transparent" />
-            <text fontSize="11" letterSpacing="3.5" fill="currentColor" fontWeight="500" textTransform="uppercase">
+            <text fontSize="11" letterSpacing="3.5" fill="currentColor" fontWeight="500" className="uppercase">
               <textPath href="#circlePath">
                 Creative Engineer • Zhee Physco •
               </textPath>
